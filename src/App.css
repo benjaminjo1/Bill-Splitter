@@ -1,0 +1,81 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.tableContainer{
+  border: solid #cd8c4c .25rem;
+  background-color: #D9AA7A;
+  padding: 1rem;
+  border-radius: 15px;
+  color: #2A3B4C;
+}
+
+tfoot {
+  display: flex; /* Make tfoot a flex container */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically (if they have different heights) */
+  gap: 10px; /* Add some space between "Add row" text and the button */
+  padding: 10px 0;
+  margin-left: 130px;
+  margin-bottom: 20px;
+}
+
+td {
+  padding: 8px;
+}
+
+input{
+  height: 23px;
+  font-size: 1rem;
+  background-color: rgb(78, 78, 78);
+  border-radius: 12px;
+}
+
+.costBox {
+  width: 45px;
+}
+
+.errorMessage{
+  color: #E76F51;
+}
+
+.calculateButton {
+  margin: 1rem;
+  background-color: #D9AA7A;
+  color: #2A3B4C;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.people-padding{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.num-of-people-container{
+  margin-top: 20px;
+}
