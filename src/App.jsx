@@ -119,13 +119,9 @@ const PersonContainer = ({ person, onUpdatePerson, onDeletePerson, assignedItems
     >
       <div className="person-header">
         <div className="person-info">
-          <div className="person-avatar">
-            {/* Using a placeholder since 'users' emoji was removed from AnimatedIcon */}
-            👤 
-          </div>
           <input
             type="text"
-            placeholder={`Person ${person.id} 👤`}
+            placeholder={`Person ${person.id}`}
             value={person.name}
             onChange={(e) => onUpdatePerson(person.id, 'name', e.target.value)}
             className="person-name-input"
@@ -179,8 +175,6 @@ const PersonContainer = ({ person, onUpdatePerson, onDeletePerson, assignedItems
 
       <div className="person-total">
         <span className="total-label">
-          {/* Using a placeholder since 'receipt' emoji was removed from AnimatedIcon */}
-          🧾
           Total Owed:
         </span>
         <span className={`total-amount ${totalAmount > 0 ? 'has-amount' : ''}`}>

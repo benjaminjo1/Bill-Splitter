@@ -98,8 +98,8 @@ button:active {
   display: flex; /* Allows for easy centering of the SVG */
   align-items: center;
   justify-content: center;
-  width: 24px;   /* Default size for icons */
-  height: 24px;  /* Default size for icons */
+  width: 24px;
+  height: 24px; 
 }
 
 .icon svg {
@@ -336,7 +336,6 @@ button:active {
   transition: all 0.2s ease-in-out;
   cursor: grab;
   box-shadow: var(--shadow-sm);
-  animation: grow 0.3s ease-out;
 }
 
 .draggable-item:hover {
@@ -351,7 +350,7 @@ button:active {
 }
 
 .draggable-item.new-item {
-  animation: fadeIn 0.5s ease-out;
+  animation: fadeIn 0.5s ease-out; 
 }
 
 .drag-handle {
@@ -415,7 +414,7 @@ button:active {
 
 .delete-btn .icon,
 .delete-person-btn .icon {
-  width: 20px; /* Slightly smaller for delete buttons */
+  width: 20px;
   height: 20px;
 }
 
@@ -493,8 +492,8 @@ button:active {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  flex: 1; /* New flex property */
-  overflow: hidden; /* Prevents child overflow */
+  flex: 1;
+  overflow: hidden;
 }
 
 .person-avatar {
@@ -517,7 +516,7 @@ button:active {
   background-color: #fef2f2;
   color: #ef4444;
   padding: 0.25rem;
-  margin-left: 0.5rem; /* Pushes the button to the right */
+  margin-left: 0.5rem;
 }
 
 .delete-person-btn:hover {
